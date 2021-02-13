@@ -1,0 +1,25 @@
+menu:
+    # 首页: /
+    博文: /archives/
+    源码分析: /categories/Java-源码分析/
+    JDK 新特性: /categories/Java-新特性/
+    Springboot: /categories/Springboot/
+    GitHub: https://github.com/niumoo
+    Rss: /atom.xml
+
+# favicon: /favicon.png
+# logo: /favicon.png
+favicon: /head.jpg
+logo: /head.jpg
+
+# Comment
+# e.g disqus: seansun
+disqus: wdbyte
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-130656610-2
+
+# Copyright Infomation
+startyear: 2018
