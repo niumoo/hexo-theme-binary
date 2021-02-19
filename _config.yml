@@ -1,9 +1,10 @@
 menu:
     # 首页: /
     博文: /archives/
-    源码分析: /categories/Java-源码分析/
-    JDK 新特性: /categories/Java-新特性/
+    开发技巧: /categories/开发技巧/
     Springboot: /categories/Springboot/
+    Java 新特性: /categories/Java-新特性/
+    源码分析: /categories/Java-源码分析/
     GitHub: https://github.com/niumoo
     Rss: /atom.xml
 
