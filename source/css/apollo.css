@@ -202,7 +202,7 @@ body {
     font-size: 16px;
     /* font-size: 1.1rem; */
     line-height: 1.8;
-    background-color: #fff;
+    background-color: #f7f7f7;
     font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif
 }
 
@@ -427,7 +427,6 @@ header .nav-list-item a {
 
 .post-content>table, .post-content>figure.highlight, .post-content .highlight {
     /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125); */
-   
 }
 
 .post-content .tip {
@@ -656,6 +655,17 @@ pre .coffeescript .javascript, pre .javascript .xml, pre .tex .formula, pre .xml
     white-space: nowrap;
     overflow: hidden;
 }
+/* 文章详情页面的上下篇文章 */
+.paginator_post {
+    margin: 4em 0;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+}
+.paginator_post a{
+    text-decoration: underline;
+}
 
 .paginator .prev, .paginator .next {
     display: inline-block;
@@ -680,19 +690,22 @@ main.container {
     margin: 2em 10px;
 }
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 880px) {
     .wrap {
-        width: 870px;
-        margin: 0 auto
+        width: 880px;
+        margin: 0 auto;
+        padding: 0 30px;
+        background-color: white;
     }
     header {
         padding: 20px 20px
     }
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 880px) {
     .wrap {
-        width: 100%
+        width: 100%;
+        background-color: white;
     }
     header {
         padding: 20px 0
@@ -751,3 +764,21 @@ footer .copyright a:hover {
     font-weight: normal;
     font-style: normal
 }
+
+/* 侧边导航的 CSS */
+/* @media screen and (max-width: 870px) {
+    .nav_post{
+        display: none;
+    }
+}
+@media screen and (min-width: 870px) {
+    .nav_post{
+        padding-left: 40px;
+        float: left;
+        width: 200px;
+        background-color:#f9f9f9;
+    }
+    .nav_post a{
+        text-decoration: underline;
+    }
+} */
