@@ -6,6 +6,5 @@
     - var year = currentDate.getFullYear();
     - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
     - beian = theme.beian;
-    p © #{year} #[a(href=config.url)!= config.author], powered by #[a(href=hexoURL, target="_blank") Hexo],  #[a(href=beian, target="_blank") #{beian}]
-    
-   
+    - feedback = theme.feedback;
+    p © #{year} #[a(href=config.url)!= config.author]| powered by #[a(href=hexoURL, target="_blank") Hexo]|  #[a(href='https://beian.miit.gov.cn/', target="_blank") #{beian}]| #[a(href='mailto:'+feedback, target="_blank") Feedback]  
