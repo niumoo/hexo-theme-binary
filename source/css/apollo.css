@@ -383,7 +383,7 @@ header .nav-list-item a {
 
 .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
     position: relative;
-    margin: 1em 0
+    margin: 1.3em 0 1em;
 }
 
 .post-content h2:before, .post-content h3:before, .post-content h4:before, .post-content h5:before, .post-content h6:before {
@@ -396,7 +396,7 @@ header .nav-list-item a {
     font-weight: bold
 }
 
-.post-content h4:before, .post-content h5:before, .post-content h6:before {
+.post-content h3:before, .post-content h4:before, .post-content h5:before, .post-content h6:before {
     content: ""
 }
 
@@ -428,7 +428,8 @@ header .nav-list-item a {
 .post-content img {
     display: block;
     max-width: 100%;
-    margin: 1em auto
+    margin: 1em auto;
+    border-radius: 5px;
 }
 
 .post-content>table, .post-content>figure.highlight, .post-content .highlight {
@@ -498,7 +499,7 @@ code, pre {
     line-height: 1.1em;
     background-color: #f8f8f8;
     overflow-x: auto;
-    border: 1px solid #cccaca;
+    border: 1px solid #888;
     border-radius: 5px;
 }
 
@@ -775,6 +776,24 @@ footer .copyright a:hover {
     src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
     font-weight: normal;
     font-style: normal
+}
+
+/* 目录 */
+.post-toc{
+    width: 300px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    float: right;
+    margin: 0px 0px 5px 15px;
+}
+.post-toc li , .post-toc ol, .post-toc ol ol{
+    list-style: none;
+}
+.post-toc a{
+    color: #0092db;
+}
+.post-toc ol li,.post-toc ol ol li a{
+    line-height: 1.4em;
 }
 
 /* 侧边导航的 CSS */
