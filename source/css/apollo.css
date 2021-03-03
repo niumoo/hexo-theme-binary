@@ -204,9 +204,9 @@ body {
     line-height: 1.8;
     background-color: #f7f7f7;
     /* font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif */
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-     
-
+    /* 下面字体比较粗 */
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family:  "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei","Segoe UI Emoji","Segoe UI Symbol",Helvetica,Arial,-apple-system,system-ui,sans-serif;
 }
 
 ul.nav, ul.post-list {
@@ -785,6 +785,9 @@ footer .copyright a:hover {
     border-radius: 5px;
     float: right;
     margin: 0px 0px 5px 15px;
+}
+.post-toc ol{
+    padding-inline-start:25px;
 }
 .post-toc li , .post-toc ol, .post-toc ol ol{
     list-style: none;
