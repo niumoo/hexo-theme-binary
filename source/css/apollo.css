@@ -224,11 +224,7 @@ hr {
     border: 0
 }
 code {
-    margin: 0 2px;
-    padding: 3px 5px;
     color: #da1039;
-    border-radius: 2px;
-    white-space: inherit
 }
 
 iframe, video {
@@ -473,9 +469,9 @@ header .nav-list-item a {
 code, pre {
     font-size: 0.9em;
     background-color: #f8f8f8;
-    /* font-family: 'Roboto Mono', Monaco, courier, monospace */
     /* 代码字体 */
-    font-family: Monaco,Menlo,Consolas,"Courier New",monospace
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    border-radius: 3px;
 }
 
 .paginator {
