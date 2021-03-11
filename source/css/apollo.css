@@ -194,7 +194,7 @@ body {
     font-size: 16px;
     /* font-size: 1.1rem; */
     line-height: 1.8;
-    background-color: #f7f7f7;
+    background-color: #eaeaea;
     /* font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif */
     /* 下面字体比较粗 */
     /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
@@ -409,7 +409,7 @@ header .nav-list-item a {
     padding-top: 1px;
     padding-bottom: 1px;
     border-left: 3px solid #267438;
-    background-color: #f8f8f8;
+    background-color: #e7ecf3;
 }
 
 .post-content img {
@@ -417,6 +417,7 @@ header .nav-list-item a {
     max-width: 100%;
     margin: 1em auto;
     border-radius: 3px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%), 0 5px 10px -11px rgb(0 0 0 / 10%);
 }
 
 .post-content .tip {
@@ -486,7 +487,7 @@ code, pre {
     white-space: nowrap;
     overflow: hidden;
     padding: 10px 20px;
-    background-color: #f7f7f7;
+    background-color: #efefef;
 }
 .paginator_post a{
     text-decoration: underline;
@@ -515,11 +516,11 @@ main.container {
     margin: 2em 10px;
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 880px) {
     .wrap {
-        width: 860px;
+        width: 880px;
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 40px;
         background-color: white;
     }
     header {
@@ -527,7 +528,7 @@ main.container {
     }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 880px) {
     .wrap {
         width: 100%;
         background-color: white;
@@ -612,12 +613,12 @@ footer .copyright a:hover {
 }
 
 /* 侧边导航的 CSS */
- @media screen and (max-width: 870px) {
+ @media screen and (max-width: 880px) {
     .nav_post{
         display: none;
     }
 }
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 880px) {
     .nav_post{
         padding-left: 40px;
         float: left;
