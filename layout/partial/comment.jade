@@ -1,3 +1,8 @@
+if theme.valine.appId
+    div#vcomments
+    // valine comment
+    script( src="//unpkg.com/valine/dist/Valine.min.js")
+
 if theme.disqus
     #disqus_thread
     script.
@@ -19,6 +24,13 @@ if theme.disqus
         }
         xhr.ontimeout = function () {
             xhr.abort();
+                new Valine({
+                    el: '#vcomments',
+                    appId: '#{theme.valine.appId}',
+                    appKey: '#{theme.valine.appKey}',
+                    placeholder: '#{theme.valine.tip}',
+                    avatar: 'retro'
+                })
             /*加载自制评论框*/
         }
         xhr.onerror = function () {
