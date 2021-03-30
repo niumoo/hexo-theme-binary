@@ -14,7 +14,5 @@ mixin post()
         if prev
             a(href=url_for(prev))!= __('prev_post')+'：'+page.prev.title
             br
-            //- a.prev(href=url_for(prev))!= page.prev.title
         if next
             a(href=url_for(next))!= __('next_post')+'：'+page.next.title
-            //- a.next(href=url_for(next))!= page.next.title

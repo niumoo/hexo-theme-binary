@@ -8,6 +8,7 @@ menu:
     GitHub: https://github.com/niumoo
     Rss: /atom.xml
 
+toc: false
 # favicon: /favicon.png
 # logo: /favicon.png
 favicon: /head.jpg
@@ -15,15 +16,20 @@ logo: /head.jpg
 
 # Comment
 # e.g disqus: seansun
-disqus: 
+disqus: xxx
 duoshuo:
+valine:
+    appId: xxx
+    appKey: xxx
+    tip: 进来玩啊～～
+
 
 # Analytics
 # google-analytics:
-ga: 
+ga: xxx
 
 # Copyright Infomation
 startyear: 2018
-beian: 
-feedback: 
+beian:xxx
+feedback: xxx@126.com
 
